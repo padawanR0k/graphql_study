@@ -1,5 +1,6 @@
 import React, { Fragment, useState } from 'react';
 import { gql, useQuery } from '@apollo/client';
+import { gql } from '@apollo/client/core';
 
 import { LaunchTile, Header, Button, Loading } from '../components';
 import { RouteComponentProps } from '@reach/router';
